@@ -1,9 +1,8 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace SerializationTest
 {
-    [DataContract] //serialization
+    [DataContract] //JSON serialization
     public class Human
     {
         [DataMember]

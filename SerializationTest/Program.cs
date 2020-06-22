@@ -29,6 +29,8 @@ namespace SerializationTest
                 humans.Add(human);
             }
 
+            Console.WriteLine("Binary serialization");
+
             #region BinarySerialization
 
             var bf = new BinaryFormatter();
@@ -52,6 +54,7 @@ namespace SerializationTest
             #endregion
 
             Console.ReadLine();
+            Console.WriteLine("Soap serialization");
 
             #region SoapSerialization
 
@@ -76,6 +79,7 @@ namespace SerializationTest
             #endregion
 
             Console.ReadLine();
+            Console.WriteLine("XML serialization");
 
             #region XML_Serialization
 
@@ -99,6 +103,7 @@ namespace SerializationTest
             #endregion
 
             Console.ReadLine();
+            Console.WriteLine("JSON serialization");
 
             #region JSON_Serialization
 
@@ -121,6 +126,8 @@ namespace SerializationTest
             }
 
             #endregion
+
+            Console.ReadLine();
         }
     }
 }
