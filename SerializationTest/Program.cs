@@ -108,7 +108,7 @@ namespace SerializationTest
             #region JSON_Serialization
 
             var jsonForm = new DataContractJsonSerializer(typeof(List<Human>));
-
+            
             //serialization in file
             using (var file = new FileStream("humans.json", FileMode.Create))
             {
